@@ -1,0 +1,91 @@
+/*  Footer */
+.footer .content {
+	width: 58%;
+	margin-top: 100px;
+	position: relative;
+}
+
+.footer .footer_area {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+ul.link {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 15px;
+}
+
+ul.link li {
+	width: 112px;
+	height: 24px;
+}
+
+ul.link li a {
+	width: inherit;
+	height: inherit;
+}
+
+ul.link li a img {
+	width: inherit;
+	height: inherit;
+}
+
+ul.link li:nth-child(3),
+ul.link li:nth-child(4) {
+	width: 93px;
+	height: 24px;
+}
+
+
+.footer .link_area .sns {
+	margin-top: 60px;
+}
+
+.footer .link_area .sns a {
+	margin-right: 15px;
+}
+
+.footer .link_area .sns a:nth-child(1) {
+	transform: translateY(2px);
+}
+
+.footer .link_area .sns img {
+	width: 40px;
+}
+
+.footer .app_download_area {
+	margin-right: 280px;
+
+}
+
+.footer .app_download_area img:nth-child(1) {
+	width: 195px;
+
+}
+
+.footer .app_download_area img:nth-child(2) {
+	width: 145px;
+	display: block;
+	margin-top: 30px;
+}
+
+.footer .footer_content_area {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transform: translateY(-70px);
+	padding-left: 30px;
+}
+
+.footer .footer_content_area p {
+	margin-top: 25px;
+	font-size: 14px;
+}
+
+.underlined {
+	background-image: url(../images/underlined.png);
+	background-repeat: no-repeat;
+	background-position: left 0px bottom -5px;
+}

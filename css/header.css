@@ -1,0 +1,52 @@
+header {
+	width: 50%;
+	height: 100px;
+	padding: 0 140px 0 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 35px;
+}
+
+header .logo_area img {
+	width: 142px;
+	height: 32px;
+}
+
+header .sns_area a {
+	margin: 0 8px;
+}
+
+.app_download {
+	display: none;
+}
+
+.app_download img {
+	width: 140px;
+}
+
+header .sns_area {
+	display: flex;
+	align-items: center;
+}
+
+header .sns_area .sns a:nth-child(1) img {
+	transform: translateX(5px);
+}
+
+header .sns_area .sns a:nth-child(3) img {
+	transform: translateY(2px);
+}
+
+/* Pad */
+@media (min-width : 768px) and (max-width : 1400px) {
+	header {
+		width: 90%;
+		padding: 0 80px 0 20px;
+	}
+}

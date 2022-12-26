@@ -1,4 +1,5 @@
-$(document).ready(function() {
+$(document).ready(function () {
+	/* Fullpage */
 	$('#fullpage').fullpage({
 		autoScrolling: true,
 		anchors:['home', 'first', 'second', 'third', 'fourth' , 'fifth' , 'sixth', 'footer'],
@@ -21,11 +22,9 @@ $(document).ready(function() {
 			}
 
 			if (index == 2) {
-				$('.bg2 .content .bg_area img').css("left" ,"-58px")
-				$('.bg2 .content .bg_area img').css("top" ,"-58px")
-			/* 	$('.bg2 .content .bg_area:after').css("animation", "ride_bike 1s linear") */
-
-				$('.bg2 .content .bg_area img').animate({"top" : "0", "left" : "0"},{duration: 500})
+				$('.bg1 .content .bg_area img').css("left" ,"-58px")
+				$('.bg1 .content .bg_area img').css("top" ,"-58px")
+				$('.bg1 .content .bg_area img').animate({"top" : "0", "left" : "0"},{duration: 500})
 			}
       },
 	});
